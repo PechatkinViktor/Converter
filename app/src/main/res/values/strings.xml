@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Converter</string>
+
+    <string name="length">Длина</string>
+    <string name="area">Площадь</string>
+    <string name="weight">Масса</string>
+    <string name="volume">Объем</string>
+    <string name="temperature">Температура</string>
+    <string name="density">Плотность</string>
+    <string name="frequency">Частота</string>
+    <string name="energy">Энергия</string>
+    <string name="data_rate">Скорость передачи данных</string>
+    <string name="pressure">Давление</string>
+    <string name="fuel_consumption">Расход топлива</string>
+    <string name="volume_info">Объём информации</string>
+
+    <string name="kilometre">Километр</string>
+    <string name="metre">Метр</string>
+    <string name="millimetre">Миллиметр</string>
+    <string name="mile">Миля</string>
+    <string name="foot">Фут</string>
+
+    <string name="kilogram">Килограмм</string>
+    <string name="gram">Грамм</string>
+    <string name="milligram">Миллиграм</string>
+    <string name="pound">Фунт</string>
+    <string name="ton">Тонна</string>
+    <string name="default_value">0</string>
+
+    <string name="to">Из</string>
+    <string name="from">В</string>
 </resources>
