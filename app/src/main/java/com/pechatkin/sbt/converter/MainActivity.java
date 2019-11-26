@@ -18,16 +18,20 @@ public class MainActivity extends AppCompatActivity implements RecyclerOnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RecyclerView recyclerView = findViewById(R.id.recycler);
-        RecyclerAdapter adapter = new RecyclerAdapter(this);
-        adapter.setValues(Arrays.asList(Conversion.values()));
-        recyclerView.setAdapter(adapter);
+//        RecyclerView recyclerView = findViewById(R.id.recycler);
+////        RecyclerAdapter adapter = new RecyclerAdapter(this);
+////        adapter.setValues(Arrays.asList(Conversion.values()));
+////        recyclerView.setAdapter(adapter);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.main_ativity, MainFragment.newInstance())
+                .addToBackStack(null)
+                .commit();
     }
 
     @Override
     public void onClick(Conversion conversion) {
-        Intent intent = new Intent(this, ConverterActivity.class);
-        intent.putExtra(CONVERSION, conversion);
-        startActivity(intent);
+//        Intent intent = new Intent(this, ConverterActivity.class);
+//        intent.putExtra(CONVERSION, conversion);
+//        startActivity(intent);
     }
 }
